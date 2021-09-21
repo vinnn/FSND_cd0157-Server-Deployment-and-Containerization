@@ -3,8 +3,8 @@
 FROM python:3.7.2-slim
 FROM python:stretch
 
-COPY . /
-WORKDIR /
+COPY . /mydockerfolder
+WORKDIR /mydockerfolder
 
 
 RUN pip3 install -r requirements.txt
